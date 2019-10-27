@@ -8,7 +8,7 @@
 #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 DHT dht(DHTPIN, DHTTYPE);
 WiFiClient client;
-SoftwareSerial pmsSerial(D4, D5);
+SoftwareSerial pmsSerial(D4, D5); //The TX and RX pins of the pms7003 are connected to my arduino at TX->D4 and RX->D5 
 PMS pms(pmsSerial);
 PMS::DATA data;
 float pm10 = 0;
