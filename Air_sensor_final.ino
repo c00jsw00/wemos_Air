@@ -14,9 +14,9 @@ PMS::DATA data;
 float pm10 = 0;
 float pm25 = 0;
 // replace with your channel’s thingspeak API key and your SSID and password
-String apiKey = "E9T10WNQAO6OR5SE";
-const char* ssid = "wang2";
-const char* password = "bc2858bc2858@";
+String apiKey = "XXX"; //  thingspeak API key
+const char* ssid = "XXXX"; //wifi ssid
+const char* password = "XXXXXXXX"; //wifi ssid pssword
 const char* server = "api.thingspeak.com";
 
  
